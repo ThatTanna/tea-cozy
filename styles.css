@@ -32,6 +32,10 @@ a {
     text-decoration: none;
 }
 
+a:link, a:visited {
+    color: seashell
+}
+
 nav>ul {
     list-style-type: none;
     margin: 0;
@@ -97,7 +101,7 @@ img {
 }
 
 .location-header {
-    margin-top: 100px;
+    margin: 100px 0px 15px 0px;
 }
 
 .addresses {
@@ -121,14 +125,15 @@ img {
 .address-cards>ul>li {
     list-style-type: none;
     margin: 30px;
+    font-size: smaller;
 }
 
 footer {
     height: 200px;
-
+    width: 100%;
 }
 
-footer > ul > li {
+footer>ul>li {
     margin: 10px 0px 25px;
 }
 
